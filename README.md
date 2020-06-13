@@ -8,9 +8,9 @@ components within the starter code.
 ### Links and Resources
 
 - [PR Lab 22](https://github.com/401-advanced-javascript-joel/lab-22/pull/1)
-- [Netlify](#)
-- [AWS S3](#)
-- [AWS Amplify](#)
+- [Netlify](https://wizardly-chandrasekhar-000733.netlify.app)
+- [AWS S3](http://joelwatson-codefellows.s3-website-us-west-2.amazonaws.com/)
+- [AWS Amplify](https://master.d3hhrzahnvlegk.amplifyapp.com)
 
 ### Setup
 
