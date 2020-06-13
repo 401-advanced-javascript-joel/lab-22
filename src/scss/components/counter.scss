@@ -1,0 +1,40 @@
+.counter {
+  flex-grow: 1;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  & .clicker {
+    font-size: $font-size-md;
+    font-weight: 700;
+    color: $white;
+    border-radius: $border-radius-lg;
+    padding: $padding-sm $padding-lg;
+    width: 10rem;
+    text-align: center;
+    margin: 0 $margin-lg;
+
+    &.up,
+    &.up::selection {
+      background-color: $green;
+    }
+
+    &.down,
+    &.down::selection {
+      background-color: $red;
+    }
+  }
+
+  & .count {
+    font-size: $font-size-lg;
+    width: 10rem;
+    text-align: center;
+
+    &.positive {
+      color: $green;
+    }
+    &.negative {
+      color: $red;
+    }
+  }
+}
